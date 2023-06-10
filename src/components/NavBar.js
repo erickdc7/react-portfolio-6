@@ -31,7 +31,7 @@ const NavBar = () => {
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
                 <Navbar.Brand href="#home">
-                    <img src="" alt="logo" />
+                    <img src={logo} alt="logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" >
                     <span className='navbar-toggler-icon'></span>
@@ -65,15 +65,15 @@ const NavBar = () => {
                     <span className='navbar-text'>
                         <div className='social-icon'>
                             <a href="#">
-                                <img src="" alt="" />
+                                <img src={navIcon1} alt="" />
                             </a>
 
                             <a href="#">
-                                <img src="" alt="" />
+                                <img src={navIcon2} alt="" />
                             </a>
 
                             <a href="#">
-                                <img src="" alt="" />
+                                <img src={navIcon3} alt="" />
                             </a>
                         </div>
 
