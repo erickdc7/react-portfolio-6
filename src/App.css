@@ -17,6 +17,13 @@
   font-weight: 400;
 }
 
+/* Default CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
