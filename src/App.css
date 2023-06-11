@@ -59,3 +59,7 @@ ul {
   line-height: normal;
   text-decoration: none;
 }
+
+a:hover {
+  text-decoration: none;
+}
