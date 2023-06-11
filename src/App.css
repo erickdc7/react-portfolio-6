@@ -215,3 +215,9 @@ span.navbar-text {
   height: 100%;
   position: absolute;
 }
+
+nav.navbar .navbar-toggler:active,
+nav.navbar .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
