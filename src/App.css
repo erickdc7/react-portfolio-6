@@ -192,3 +192,15 @@ span.navbar-text {
 .navbar-text button span {
   z-index: 1;
 }
+
+.navbar-text button::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
