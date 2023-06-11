@@ -221,3 +221,13 @@ nav.navbar .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
 }
+
+nav.navbar .navbar-toggler-icon {
+  width: 24px;
+  height: 17px;
+  background-image: none;
+  position: relative;
+  border-bottom: 2px solid #fff;
+  transition: all 300ms linear;
+  top: -2px;
+}
