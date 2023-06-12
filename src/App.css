@@ -252,3 +252,9 @@ nav.navbar .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler-icon:after {
   top: 8px;
 }
+
+nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+  transform: rotate(45deg);
+  background-color: #fff;
+  height: 2px;
+}
