@@ -327,3 +327,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
   line-height: 1;
 }
+
+.banner button:hover svg {
+  margin-left: 25px;
+}
