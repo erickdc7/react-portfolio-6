@@ -351,3 +351,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
+
+/* Skills CSS */
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+}
