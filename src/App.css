@@ -428,3 +428,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
+
+.project .nav.nav-pills .nav-item {
+  width: 33.33333%;
+}
