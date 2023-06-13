@@ -378,3 +378,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   margin: 14px 0 75px 0;
 }
+
+.skill-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
