@@ -365,3 +365,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 60px 50px;
   margin-top: -60px;
 }
+
+.skill h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
