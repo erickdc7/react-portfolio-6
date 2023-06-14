@@ -499,3 +499,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 0;
   transition: 0.4s ease-in-out;
 }
+
+.proj-imgbx:hover::before {
+  height: 100%;
+}
