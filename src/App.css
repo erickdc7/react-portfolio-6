@@ -609,3 +609,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 1;
   position: relative;
 }
+
+.contact form button:hover {
+  color: #fff;
+}
