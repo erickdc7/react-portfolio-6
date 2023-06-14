@@ -604,3 +604,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   transition: 0.3s ease-in-out;
 }
+
+.contact form button span {
+  z-index: 1;
+  position: relative;
+}
