@@ -477,3 +477,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
+
+.nav-link#projects-tabs-tab-third {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 55px 55px 0;
+}
