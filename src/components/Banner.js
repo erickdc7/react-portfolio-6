@@ -1,8 +1,11 @@
+import { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { ArrowRightCircle } from 'react-bootstrap-icons'
 import headerImg from '../assets/img/header-img.svg'
 
 export const Banner = () => {
+     
+
     return (
         <section className='banner' id='home'>
             <Container>
