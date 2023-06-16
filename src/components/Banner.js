@@ -20,6 +20,10 @@ export const Banner = () => {
                         <p>
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni commodi sunt corporis ducimus veniam tempore explicabo incidunt dignissimos dicta mollitia?
                         </p>
+
+                        <button onClick={() => console.log('connect')}>
+                            Let's connect
+                        </button>
                     </Col>
                 </Row>
             </Container>
