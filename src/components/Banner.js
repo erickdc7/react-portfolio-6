@@ -4,7 +4,7 @@ import { ArrowRightCircle } from 'react-bootstrap-icons'
 import headerImg from '../assets/img/header-img.svg'
 
 export const Banner = () => {
-     
+    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
 
     return (
         <section className='banner' id='home'>
