@@ -1,4 +1,5 @@
-import React from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
+import { ArrowRightCircle } from 'react-bootstrap-icons'
 
 export const Banner = () => {
     return (
@@ -24,6 +25,10 @@ export const Banner = () => {
                         <button onClick={() => console.log('connect')}>
                             Let's connect
                         </button>
+                    </Col>
+
+                    <Col xs={12} md={6} xl={5}>
+
                     </Col>
                 </Row>
             </Container>
