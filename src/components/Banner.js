@@ -23,7 +23,7 @@ export const Banner = () => {
                         </p>
 
                         <button onClick={() => console.log('connect')}>
-                            Let's connect <ArrowRightCircle />
+                            Let's connect <ArrowRightCircle size={24} />
                         </button>
                     </Col>
 
