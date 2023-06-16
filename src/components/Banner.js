@@ -8,6 +8,7 @@ export const Banner = () => {
     const [isDeleting, setIsDeleting] = useState(false);
     const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
     const [text, setText] = useState('');
+    const period = 2000;
 
     return (
         <section className='banner' id='home'>
