@@ -10,6 +10,12 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const period = 2000;
 
+    useEffect(() => {
+        let ticker = setInterval(() => {
+
+        })
+    }, [])
+
     return (
         <section className='banner' id='home'>
             <Container>
