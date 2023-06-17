@@ -21,6 +21,8 @@ export const Banner = () => {
 
     const tick = () => {
         let i = loopNum % toRotate.length;
+        let fullText = toRotate(i);
+       
     }
 
     return (
