@@ -35,7 +35,9 @@ export const Skills = () => {
                             </p>
 
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
+                                <div className="item">
 
+                                </div>
                             </Carousel>
                         </div>
                     </Col>
