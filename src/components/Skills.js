@@ -30,7 +30,9 @@ export const Skills = () => {
                     <Col>
                         <div className="skill-bx">
                             <h2>Skills</h2>
-                            
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque praesentium aspernatur atque ea voluptatem, amet eum vel similique illum.
+                            </p>
                         </div>
                     </Col>
                 </Row>
