@@ -1,3 +1,4 @@
+import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -24,7 +25,9 @@ export const Skills = () => {
 
     return (
         <section className="skill" id="skills">
-            
+            <Container>
+               
+            </Container>
         </section>
     )
 }
