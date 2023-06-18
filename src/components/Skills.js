@@ -33,6 +33,10 @@ export const Skills = () => {
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eaque praesentium aspernatur atque ea voluptatem, amet eum vel similique illum.
                             </p>
+
+                            <Carousel responsive={responsive} infinite={true} className="skill-slider">
+
+                            </Carousel>
                         </div>
                     </Col>
                 </Row>
