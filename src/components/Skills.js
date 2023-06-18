@@ -28,7 +28,10 @@ export const Skills = () => {
             <Container>
                 <Row>
                     <Col>
-
+                        <div className="skill-bx">
+                            <h2>Skills</h2>
+                            
+                        </div>
                     </Col>
                 </Row>
             </Container>
