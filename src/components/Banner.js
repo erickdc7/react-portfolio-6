@@ -52,7 +52,7 @@ export const Banner = () => {
                         <h1>
                             {`Hi I'm webdecoded`}
                             <span className='wrap'>
-                                web developer
+                                {text}
                             </span>
                         </h1>
 
