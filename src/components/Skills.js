@@ -23,6 +23,8 @@ export const Skills = () => {
     };
 
     return (
-        <div>Skills</div>
+        <section className="skill" id="skills">
+            
+        </section>
     )
 }
