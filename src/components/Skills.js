@@ -49,7 +49,7 @@ export const Skills = () => {
                                 </div>
 
                                 <div className="item">
-                                    <img src="" alt="" />
+                                    <img src={meter3} alt="" />
                                     <h5>Logo Design</h5>
                                 </div>
 
