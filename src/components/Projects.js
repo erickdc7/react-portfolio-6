@@ -40,6 +40,9 @@ export const Projects = () => {
                 <Row>
                     <Col>
                         <h2>Projects</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consequuntur aliquam veritatis nisi facere odio. Unde accusantium debitis ipsa expedita?
+                        </p>
                     </Col>
                 </Row>
             </Container>
