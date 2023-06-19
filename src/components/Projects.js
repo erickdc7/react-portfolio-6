@@ -1,4 +1,4 @@
-import React from 'react'
+import { Container } from "react-bootstrap";
 
 export const Projects = () => {
     const projects = [
@@ -35,6 +35,8 @@ export const Projects = () => {
     ];
 
     return (
-        <div>Projects</div>
+        <section className="project" id="project">
+
+        </section>
     )
 }
