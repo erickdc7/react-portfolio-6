@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 export const Projects = () => {
     const projects = [
@@ -37,7 +37,9 @@ export const Projects = () => {
     return (
         <section className="project" id="project">
             <Container>
+                <Row>
 
+                </Row>
             </Container>
         </section>
     )
