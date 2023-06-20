@@ -77,6 +77,10 @@ export const Projects = () => {
                                 <Tab.Pane eventKey="second">
 
                                 </Tab.Pane>
+
+                                <Tab.Pane eventKey="third">
+
+                                </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
                     </Col>
