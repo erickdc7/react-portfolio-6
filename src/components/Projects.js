@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Nav, Row } from "react-bootstrap";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
@@ -47,6 +47,18 @@ export const Projects = () => {
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consequuntur aliquam veritatis nisi facere odio. Unde accusantium debitis ipsa expedita?
                         </p>
+
+                        <Nav variant="pills" defaultActiveKey="/home">
+                            <Nav.Item>
+                                <Nav.Link eventKey="first">Active</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link eventKey="second">Option 2</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                                <Nav.Link eventKey="third">Disabled</Nav.Link>
+                            </Nav.Item>
+                        </Nav>
                     </Col>
                 </Row>
             </Container>
