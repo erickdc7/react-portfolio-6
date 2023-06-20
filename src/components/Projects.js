@@ -3,6 +3,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
     const projects = [
@@ -67,7 +68,10 @@ export const Projects = () => {
                                         {
                                             projects.map((project, index) => {
                                                 return (
-                                                    <p>{project.title}</p>
+                                                    <ProjectCard
+                                                        key={index}
+                                                        {...project}
+                                                    />
                                                 )
                                             })
                                         }
