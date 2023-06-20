@@ -75,11 +75,11 @@ export const Projects = () => {
                                 </Tab.Pane>
 
                                 <Tab.Pane eventKey="second">
-
+                                    Lorem ipsum dolor sit amet.
                                 </Tab.Pane>
 
                                 <Tab.Pane eventKey="third">
-
+                                    Lorem ipsum dolor sit amet.
                                 </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
