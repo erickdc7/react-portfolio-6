@@ -60,6 +60,10 @@ export const Projects = () => {
                                     <Nav.Link eventKey="third">Tab Three</Nav.Link>
                                 </Nav.Item>
                             </Nav>
+
+                            <Tab.Content>
+                                
+                            </Tab.Content>
                         </Tab.Container>
                     </Col>
                 </Row>
