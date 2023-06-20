@@ -50,7 +50,7 @@ export const Projects = () => {
 
                         <Nav variant="pills" defaultActiveKey="/home">
                             <Nav.Item>
-                                <Nav.Link eventKey="first">Active</Nav.Link>
+                                <Nav.Link eventKey="first">Tab One</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
                                 <Nav.Link eventKey="second">Option 2</Nav.Link>
