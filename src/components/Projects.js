@@ -62,7 +62,9 @@ export const Projects = () => {
                             </Nav>
 
                             <Tab.Content>
-                                
+                                <Tab.Pane eventKey="first">
+
+                                </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
                     </Col>
