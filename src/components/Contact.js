@@ -14,6 +14,8 @@ export const Contact = () => {
     const [status, setStatus] = useState({});
 
     return (
-        <div>Contact</div>
+        <section className="contact" id="connect">
+
+        </section>
     )
 }
