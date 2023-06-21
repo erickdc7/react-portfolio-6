@@ -24,7 +24,7 @@ export const Contact = () => {
                     </Col>
 
                     <Col md={6}>
-
+                        <h2>Get In Touch</h2>
                     </Col>
                 </Row>
             </Container>
