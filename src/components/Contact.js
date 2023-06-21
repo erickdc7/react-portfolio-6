@@ -23,7 +23,7 @@ export const Contact = () => {
                         <img src={contactImg} alt="contact us" />
                     </Col>
 
-                    <Col>
+                    <Col md={6}>
 
                     </Col>
                 </Row>
