@@ -17,8 +17,8 @@ export const Contact = () => {
     return (
         <section className="contact" id="connect">
             <Container>
-                <Row>
-                    <Col>
+                <Row className="align-items-center">
+                    <Col md={6}>
 
                     </Col>
                 </Row>
