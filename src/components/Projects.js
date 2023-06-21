@@ -90,6 +90,8 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
+
+            <img src={colorSharp2} alt="" className="background-image-right" />
         </section>
     )
 }
