@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 export const Contact = () => {
     const formInitialDetails = {
@@ -17,7 +17,9 @@ export const Contact = () => {
     return (
         <section className="contact" id="connect">
             <Container>
-                
+                <Row>
+
+                </Row>
             </Container>
         </section>
     )
