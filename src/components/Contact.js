@@ -9,6 +9,8 @@ export const Contact = () => {
         message: '',
     }
 
+    const [formDetails, setFormDetails] = useState(formInitialDetails);
+
     return (
         <div>Contact</div>
     )
