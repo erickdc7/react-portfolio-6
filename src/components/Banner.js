@@ -21,7 +21,7 @@ export const Banner = () => {
 
     const tick = () => {
         let i = loopNum % toRotate.length;
-        let fullText = toRotate(i);
+        let fullText = toRotate[1];
         let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
 
         setText(updatedText);
@@ -43,17 +43,14 @@ export const Banner = () => {
     return (
         <section className='banner' id='home'>
             <Container>
-                <Row className="align-items-center">
+                <Row className="aligh-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className='tagline'>
                             Welcome to my Portfolio
                         </span>
 
                         <h1>
-                            {`Hi I'm webdecoded`}
-                            <span className='wrap'>
-                                {text}
-                            </span>
+                            {`Hi I'm webdecoded`} <span className='wrap'>{text}</span>
                         </h1>
 
                         <p>
@@ -61,7 +58,7 @@ export const Banner = () => {
                         </p>
 
                         <button onClick={() => console.log('connect')}>
-                            Let's connect <ArrowRightCircle size={24} />
+                            Let's connect <ArrowRightCircle size={25} />
                         </button>
                     </Col>
 
