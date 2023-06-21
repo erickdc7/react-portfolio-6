@@ -22,6 +22,10 @@ export const Contact = () => {
                     <Col md={6}>
                         <img src={contactImg} alt="contact us" />
                     </Col>
+
+                    <Col>
+
+                    </Col>
                 </Row>
             </Container>
         </section>
