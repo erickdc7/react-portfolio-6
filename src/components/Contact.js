@@ -28,7 +28,7 @@ export const Contact = () => {
 
                         <form action="">
                             <Row>
-                                <Col>
+                                <Col sm={6} className="px-1">
 
                                 </Col>
                             </Row>
