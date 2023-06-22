@@ -52,6 +52,15 @@ export const Contact = () => {
                                         onChange={(e) => onFormUpdate('lastName', e.target.value)}
                                     />
                                 </Col>
+
+                                <Col sm={6} className="px-1">
+                                    <input
+                                        type="email"
+                                        value={formDetails.email}
+                                        placeholder="Email Address"
+                                        onChange={(e) => onFormUpdate('email', e.target.value)}
+                                    />
+                                </Col>
                             </Row>
                         </form>
                     </Col>
