@@ -70,6 +70,10 @@ export const Contact = () => {
                                         onChange={(e) => onFormUpdate('phone', e.target.value)}
                                     />
                                 </Col>
+
+                                <Col>
+                                    
+                                </Col>
                             </Row>
                         </form>
                     </Col>
