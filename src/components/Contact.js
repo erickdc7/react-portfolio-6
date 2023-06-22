@@ -22,6 +22,10 @@ export const Contact = () => {
         })
     }
 
+    const handleSubmit = () => {
+
+    }
+
     return (
         <section className="contact" id="connect">
             <Container>
