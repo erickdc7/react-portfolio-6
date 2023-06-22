@@ -27,7 +27,9 @@ export const Contact = () => {
                         <h2>Get In Touch</h2>
 
                         <form action="">
+                            <Row>
 
+                            </Row>
                         </form>
                     </Col>
                 </Row>
