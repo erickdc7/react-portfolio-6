@@ -22,8 +22,9 @@ export const Contact = () => {
         })
     }
 
-    const handleSubmit = () => {
-
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setButtonText('Sending...');
     }
 
     return (
