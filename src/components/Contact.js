@@ -31,6 +31,10 @@ export const Contact = () => {
                                 <Col sm={6} className="px-1">
 
                                 </Col>
+
+                                <Col sm={6} className="px-1">
+
+                                </Col>
                             </Row>
                         </form>
                     </Col>
