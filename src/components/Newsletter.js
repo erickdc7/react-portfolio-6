@@ -1,4 +1,4 @@
-export const Newsletter = () => {
+export const Newsletter = ({ subscribe, status, message }) => {
     return (
         <div>Newsletter</div>
     )
