@@ -1,5 +1,9 @@
+import { Col } from "react-bootstrap"
+
 export const Newsletter = ({ subscribe, status, message }) => {
     return (
-        <div>Newsletter</div>
+        <Col lg={12}>
+
+        </Col>
     )
 }
