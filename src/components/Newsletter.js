@@ -6,7 +6,7 @@ export const Newsletter = ({ subscribe, status, message }) => {
             <div className="newsletter-bx">
                 <Row>
                     <Col lg={12} md={6} xl={5}>
-
+                        <h3>Subsribe to our Newsletter</h3>
                     </Col>
                 </Row>
             </div>
