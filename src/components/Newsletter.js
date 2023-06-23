@@ -11,6 +11,10 @@ export const Newsletter = ({ subscribe, status, message }) => {
                         {status === 'error' && <Alert variant="danger">{message}</Alert>}
                         {status === 'success' && <Alert variant="success">{message}</Alert>}
                     </Col>
+
+                    <Col md={6} xl={7}>
+
+                    </Col>
                 </Row>
             </div>
         </Col>
