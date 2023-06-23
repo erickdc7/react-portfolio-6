@@ -9,6 +9,7 @@ export const Newsletter = ({ subscribe, status, message }) => {
                         <h3>Subsribe to our Newsletter</h3>
                         {status === 'sending' && <Alert>Sending...</Alert>}
                         {status === 'error' && <Alert variant="danger">{message}</Alert>}
+                        {status === 'success' && <Alert variant="success">{message}</Alert>}
                     </Col>
                 </Row>
             </div>
