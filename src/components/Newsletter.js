@@ -2,6 +2,8 @@ import { useState } from "react"
 import { Alert, Col, Row } from "react-bootstrap"
 
 export const Newsletter = ({ subscribe, status, message }) => {
+    const [email, setEmail] = useState('');
+
     const handleSubmit = () => {
 
     }
@@ -20,7 +22,7 @@ export const Newsletter = ({ subscribe, status, message }) => {
                     <Col md={6} xl={7}>
                         <form onSubmit={handleSubmit}>
                             <div className="new-email-bx">
-                                <input type="text" value={} />
+                                <input type="text" value={ } />
                             </div>
                         </form>
                     </Col>
