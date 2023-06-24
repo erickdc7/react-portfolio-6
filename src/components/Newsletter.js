@@ -28,6 +28,7 @@ export const Newsletter = ({ subscribe, status, message }) => {
                                     onChange={(e) => setEmail(e.target.value)}
                                     placeholder="Email Address"
                                 />
+                                <button type="submit">Submit</button>
                             </div>
                         </form>
                     </Col>
