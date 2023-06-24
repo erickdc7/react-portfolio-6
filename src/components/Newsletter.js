@@ -9,7 +9,7 @@ export const Newsletter = ({ subscribe, status, message }) => {
 
         email &&
             email.indexOf("@") > -1 &&
-            onValidate()
+            onValidated()
     }
 
     return (
