@@ -12,6 +12,10 @@ export const Footer = () => {
                     <Col sm={6}>
                         <img src={logo} alt="logo" />
                     </Col>
+
+                    <Col sm={6} className="text-center text-sm-end">
+
+                    </Col>
                 </Row>
             </Container>
         </footer>
