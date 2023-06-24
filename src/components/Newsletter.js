@@ -22,7 +22,7 @@ export const Newsletter = ({ subscribe, status, message }) => {
                     <Col md={6} xl={7}>
                         <form onSubmit={handleSubmit}>
                             <div className="new-email-bx">
-                                <input type="text" value={ } />
+                                <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
                             </div>
                         </form>
                     </Col>
