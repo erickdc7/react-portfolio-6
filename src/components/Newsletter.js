@@ -1,6 +1,10 @@
 import { Alert, Col, Row } from "react-bootstrap"
 
 export const Newsletter = ({ subscribe, status, message }) => {
+    const handleSubmit = () => {
+
+    }
+
     return (
         <Col lg={12}>
             <div className="newsletter-bx">
