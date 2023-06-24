@@ -4,8 +4,12 @@ import { Alert, Col, Row } from "react-bootstrap"
 export const Newsletter = ({ subscribe, status, message }) => {
     const [email, setEmail] = useState('');
 
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
 
+        email &&
+            email.indexOf("@") > -1 &&
+            onValidate()
     }
 
     return (
