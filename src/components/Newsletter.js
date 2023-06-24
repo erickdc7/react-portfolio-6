@@ -14,6 +14,10 @@ export const Newsletter = ({ onValidated, status, message }) => {
             })
     }
 
+    const clearFields = () => {
+        setEmail('');
+    }
+
     return (
         <Col lg={12}>
             <div className="newsletter-bx">
