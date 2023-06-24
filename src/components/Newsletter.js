@@ -9,7 +9,9 @@ export const Newsletter = ({ onValidated, status, message }) => {
 
         email &&
             email.indexOf("@") > -1 &&
-            onValidated()
+            onValidated({
+                EMAIL: email
+            })
     }
 
     return (
