@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Alert, Col, Row } from "react-bootstrap"
 
 export const Newsletter = ({ onValidated, status, message }) => {
