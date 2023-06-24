@@ -13,7 +13,9 @@ export const Newsletter = ({ subscribe, status, message }) => {
                     </Col>
 
                     <Col md={6} xl={7}>
+                        <form onSubmit={handleSubmit}>
 
+                        </form>
                     </Col>
                 </Row>
             </div>
