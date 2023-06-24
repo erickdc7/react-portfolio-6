@@ -8,7 +8,7 @@ export const Footer = () => {
                 <Row className="align-items-center">
                     <MailchimpForm />
 
-                    <Col>
+                    <Col sm={6}>
 
                     </Col>
                 </Row>
