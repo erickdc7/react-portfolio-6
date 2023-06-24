@@ -18,7 +18,9 @@ export const Newsletter = ({ subscribe, status, message }) => {
 
                     <Col md={6} xl={7}>
                         <form onSubmit={handleSubmit}>
+                            <div className="new-email-bx">
 
+                            </div>
                         </form>
                     </Col>
                 </Row>
