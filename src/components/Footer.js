@@ -10,7 +10,7 @@ export const Footer = () => {
                     <MailchimpForm />
 
                     <Col sm={6}>
-                        <img src="" alt="" />
+                        <img src={logo} alt="" />
                     </Col>
                 </Row>
             </Container>
