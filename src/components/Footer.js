@@ -1,4 +1,4 @@
-import { Container, Row } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap"
 import { MailchimpForm } from "./MailchimpForm"
 
 export const Footer = () => {
@@ -7,6 +7,10 @@ export const Footer = () => {
             <Container>
                 <Row className="align-items-center">
                     <MailchimpForm />
+
+                    <Col>
+
+                    </Col>
                 </Row>
             </Container>
         </footer>
