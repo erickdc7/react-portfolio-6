@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { Alert, Col, Row } from "react-bootstrap"
 
 export const Newsletter = ({ subscribe, status, message }) => {
