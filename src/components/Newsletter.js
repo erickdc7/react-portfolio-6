@@ -23,7 +23,7 @@ export const Newsletter = ({ onValidated, status, message }) => {
     }
 
     return (
-        <Col lg={12}>
+        <Col lg={12} style={{ position: "relative" }}>
             <div className="newsletter-bx">
                 <Row>
                     <Col lg={12} md={6} xl={5}>
