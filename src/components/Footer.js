@@ -24,6 +24,9 @@ export const Footer = () => {
                             <a href="">
                                 <img src={navIcon2} alt="" />
                             </a>
+                            <a href="">
+                                <img src={navIcon3} alt="" />
+                            </a>
                         </div>
                     </Col>
                 </Row>
