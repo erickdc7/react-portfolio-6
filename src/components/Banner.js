@@ -48,7 +48,7 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <TrackVisibility>
-                            <div>
+                            <div className={isVisible ? "animated__animated animate__fadeIn" : ""}>
                                 <span className='tagline'>
                                     Welcome to my Portfolio
                                 </span>
