@@ -48,7 +48,7 @@ export const Projects = () => {
                     <Col>
                         <TrackVisibility>
                             {({ isVisible }) =>
-                                <div className={isVisible ? "animated__animated animate__slideInUp" : ""}>
+                                <div className={isVisible ? "animate__animated animate__bounce" : ""}>
                                     <h2>Projects</h2>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consequuntur aliquam veritatis nisi facere odio. Unde accusantium debitis ipsa expedita?
