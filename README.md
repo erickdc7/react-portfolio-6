@@ -1,5 +1,5 @@
 # React Portfolio 06
-This design is inspired by this [video](https://youtu.be/hYv6BM2fWd8), which belongs to [webdecoded](https://www.youtube.com/@webdecoded).
+This design is inspired by the work of [webdecoded](https://www.youtube.com/@webdecoded). Click [here](https://youtu.be/hYv6BM2fWd8) to watch the video.
 
 ## Technologies
 This web page was made with the following technologies:
